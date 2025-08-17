@@ -4,6 +4,8 @@ This project brings stable diffusion models onto web browsers. **Everything runs
 
 You are also more than welcomed to checkout [Web LLM](https://github.com/mlc-ai/web-llm) if you are interested in deploying LLM-based chat bots to browser.
 
+> **New:** the library now exposes an experimental `OmniModalMiniturbo` skeleton that sketches a 1D/2D/3D/4D diffusion interface.  The module is a placeholder for future research toward an audio‑visual, physics‑aware pipeline and does not provide real 4K@60 FPS generation.
+
 <img src="site/img/fig/browser-screenshot.png" alt="Browser screenshot"/>
 
 We have been seeing amazing progress through AI models recently. Thanks to the open-source effort, developers can now easily compose open-source models together to produce amazing tasks. Stable diffusion enables the automatic creation of photorealistic images as well as images in various styles based on text input. These models are usually big and compute-heavy, which means we have to pipe through all computation requests to (GPU) servers when developing web applications based on these models. Additionally, most of the workloads have to run on a specific type of GPUs where popular deep-learning frameworks are readily available.
